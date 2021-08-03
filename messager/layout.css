@@ -1,0 +1,114 @@
+/*폰트*/
+@font-face{
+    font-family : NanumSquare;
+    src : url(fonts/NanumPenScript-Regular.ttf) format('truetype');
+    font-style : normal;
+    font-weight : normal;
+
+}
+
+
+
+
+*{font-family: "NanumSquare", "MalgunGothic", "Verdana";  
+    font-size: 1.3rem;
+    font-weight : bold;
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    text-align: center;
+
+    /* border : 1px gray solid; */
+}
+
+#main{
+    outline : none;
+    justify-content: center;
+    align-items: center;
+    display : flex;
+    flex-direction: row;
+    height : 100vh;
+    
+    
+}
+
+section{
+    width : 80vh;
+    height: 90vh;
+    position : sticky;
+    /* background : linear-gradient(to left, skyblue,rgb(222, 239, 241)); */
+    
+    border-radius: 2rem;
+}
+
+
+
+section >div,h1{
+    margin : 1rem;
+    font-size: 2rem !important;
+}
+
+#loginBtn{
+    margin-bottom : 0
+}
+
+#newMessegeBox h3{
+    margin-top : 1rem;
+    
+}
+
+#newMessegeBox{
+    background-color: transparent;
+    border-radius: 1rem;
+    height : 13rem;
+    /* border-top : 0.1rem white solid; */
+    /*  */
+/* 배경은 옅게해서 글씨 선명해짐 */
+}
+
+#newletter{
+    margin : 0.3rem;
+    
+    height: 10rem;
+    border-radius: 1rem;
+    display : flex;
+    flex-direction: column;
+    align-items :center;
+    justify-content: center;
+    flex-wrap : wrap;
+    
+    /* border-bottom : 0.1rem white solid; */
+}
+
+
+.messegeBox{
+    padding : 1rem;
+    margin : 0.2rem;
+    border-radius: 1rem;
+    
+    width : 20rem;
+    
+
+    
+    
+}
+/* 버튼, 빈칸(write) */
+button{
+    
+    
+    letter-spacing: 0.5rem;
+    width : 50%;
+    height : 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.write{
+    width : 100%;
+    height : 2rem;
+    outline : none;
+    border-radius: 1rem;
+    
+}
+
