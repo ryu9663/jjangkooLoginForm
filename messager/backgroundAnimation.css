@@ -1,0 +1,16 @@
+
+/* 짱구배경화면 */
+section{
+    background-image: url('b.jpg');
+    /* 가운데정렬 */
+    background-position-x: center;
+    /* 옆으로 적당히 늘리기, background-size : x,y */
+    background-size: 120% 100%; 
+    background-repeat: no-repeat;
+    
+}
+
+/* 배경은 옅게해서 글씨 선명해짐 */
+#newMessegeBox h3, button, .messegeBox, .write{
+    background-color: rgba(255,255,255,0.3);
+}
